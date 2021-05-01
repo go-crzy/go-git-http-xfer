@@ -4,7 +4,6 @@ import (
 	"net/http"
 	"os/exec"
 	"strings"
-	"syscall"
 )
 
 func getServiceType(req *http.Request) string {
@@ -20,6 +19,6 @@ func cleanUpProcessGroup(cmd *exec.Cmd) {
 		return
 	}
 	if process := cmd.Process; process != nil && process.Pid > 0 {
-		syscall.Kill(-process.Pid, syscall.SIGTERM)
+		process.Kill()
 	}
 }
