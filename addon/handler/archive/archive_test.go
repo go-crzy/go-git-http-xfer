@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nulab/go-git-http-xfer/githttpxfer"
+	"github.com/gregoryguillou/go-git-http-xfer/githttpxfer"
 )
 
 type ArchiveParams struct {

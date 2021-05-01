@@ -9,7 +9,7 @@ import (
 
 	"net/url"
 
-	"github.com/nulab/go-git-http-xfer/githttpxfer"
+	"github.com/gregoryguillou/go-git-http-xfer/githttpxfer"
 )
 
 var (
