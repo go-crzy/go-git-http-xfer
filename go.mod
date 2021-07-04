@@ -1,3 +1,3 @@
-module github.com/gregoryguillou/go-git-http-xfer
+module github.com/go-crzy/go-git-http-xfer
 
 go 1.16

@@ -12,8 +12,8 @@ import (
 
 	"net/url"
 
-	"github.com/gregoryguillou/go-git-http-xfer/addon/handler/archive"
-	"github.com/gregoryguillou/go-git-http-xfer/githttpxfer"
+	"github.com/go-crzy/go-git-http-xfer/addon/handler/archive"
+	"github.com/go-crzy/go-git-http-xfer/githttpxfer"
 )
 
 func main() {
